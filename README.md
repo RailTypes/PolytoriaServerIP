@@ -1,7 +1,7 @@
 # PolytoriaServerIP
 Fetches the IP info of Polytoria servers.
 
-The script should be placed within `ScriptService` and on server startup will automatically create a [`NetworkEvent`](https://docs.polytoria.com/objects/scripting/NetworkEvent/) there. An example script can be found in the [`demo`](https://github.com/RailTypes/PolytoriaServerIP/blob/main/demo/ui.client.lua) folder.
+The script will automatically create a [`NetworkEvent`](https://docs.polytoria.com/objects/scripting/NetworkEvent/) in `ScriptService` on server startup, which can be invoked by clients to fetch server IP information. An example script can be found in the [`demo`](https://github.com/RailTypes/PolytoriaServerIP/blob/main/demo/ui.client.lua) folder.
 
 ## Config
 Configuration can be found by opening the script and changing the constants.
